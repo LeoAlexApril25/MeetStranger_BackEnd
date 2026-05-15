@@ -1,3 +1,4 @@
+
 # MeetStranger Backend
 
 Backend API para aplicativo de chat anônimo P2P dinâmico com SQLite.
@@ -157,3 +158,5 @@ Para produção, configure:
 - ✅ Validação e segurança
 - ✅ Rate limiting
 - ✅ Cleanup automático
+=======
+
