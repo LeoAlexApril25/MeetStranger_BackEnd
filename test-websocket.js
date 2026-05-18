@@ -47,7 +47,7 @@ async function testMatching() {
 
   socket2.on('queue-status', (data) => {
     console.log('⏳ Usuário 2 na fila:', data);
-  });
+  });nod
 
   // Desconectar após 10 segundos
   setTimeout(() => {
