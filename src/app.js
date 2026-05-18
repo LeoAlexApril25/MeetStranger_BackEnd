@@ -74,6 +74,10 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument, {
 // ===============================
 // ROTAS PRINCIPAIS DA API
 // ===============================
+app.get('/', (req, res) => {
+  res.send('MeetStranger Backend Online');
+}); // Eu coloquei isso para testar
+
 app.get('/api/', (_req, res) => {
   res.json({
     message: 'MeetStranger API',
